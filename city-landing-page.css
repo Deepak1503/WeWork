@@ -3,14 +3,19 @@
 /* HOME SCREEN */
 #menu a{
     color:black;
+    padding-top: 15px;
 }
 #navbar{
     background: #fff;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-bottom: 1px solid lightgray;
 }
 .navbar-brand img{
     height: 2rem;
+}
+#desktoplogo{
+    padding-top: 0;
+    margin-top: 0;
 }
 #menu a:hover{
     color: #989;
@@ -31,7 +36,7 @@
     line-height: 1.4rem;
     width: 50%;
     color: #fff;
-    margin-left: 135px;
+    margin-left: 110px;
     font-family: aprecu,sans-serif;
     position: absolute;
     top: 35%;
@@ -262,7 +267,6 @@
 /* MEMBERS REVIEW */
 .memreview{
     margin-top: 80px;
-    
     padding: 10px;
 }
 .memreview h1{
